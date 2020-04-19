@@ -1,5 +1,9 @@
+// 1. copy from here 
 var i=1;
 var j=0;
+// stop here and paste in console window and enter
+
+//2. copy from here
 function myLoop () { 
     var a= document.getElementsByClassName("qbutton_small");
     try{
@@ -12,6 +16,7 @@ function myLoop () {
     
     if(a[i].innerText=="Follow"){
         a[i].click();
+        j++;
         console.log("followed "+j +" people");  
     }  
     window.scrollTo(0,document.body.scrollHeight);  // for scrolling everytime
@@ -22,6 +27,9 @@ function myLoop () {
             myLoop();               //   again which will trigger another
         }                        
     }, 500)                         //  // delay b/w each follow in milliseconds( increase or decrease depending ur internet speed) 
-    console.log(" finished!! if more page crashed.. run  again");
+    console.log(" task in progress !! if page crashed.. run  again");
 }
-myloop();
+// stop here and paste and enter
+
+//3. copy till end and paste and  hit enter
+myloop();           //rerun this line if page crashes oe script stops suddenly.
