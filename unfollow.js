@@ -16,9 +16,9 @@ function myLoop () {
     } catch (error) {
         console.log(" continuing");
     }
-    if(a[i].innerText=="Follow"){
+    if(a[i].innerText=="Unfollow"){
         a[i].click();
-        console.log("followed "+j +" people");  
+        console.log("Unfollowed "+j +"active people");  
     }  
     window.scrollTo(0,document.body.scrollHeight);  // for scrolling everytime
     setTimeout(function () {        //  call a 3s setTimeout when the loop is called
