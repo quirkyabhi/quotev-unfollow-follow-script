@@ -28,4 +28,4 @@ function myLoop () {
     console.log(" task in progress !! if page crashed.. run  again");
 }
 
-myloop();           //rerun this line if page crashes oe script stops suddenly.
+myLoop();           //rerun this line if page crashes oe script stops suddenly.
